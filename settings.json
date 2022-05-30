@@ -61,7 +61,7 @@
         "**/tmp/**": true,
         "**/vendor/**": true
     },
-    "git.enabled": false,
+    "git.enabled": true,
     "python.defaultInterpreterPath": "~/.pyenv/shims/python",
     "python.formatting.provider": "yapf",
     "python.terminal.activateEnvironment": false,
@@ -81,10 +81,10 @@
     "bracket-pair-colorizer-2.depreciation-notice": false,
     "github.copilot.enable": {
       "*": true,
-      "yaml": false,
-      "plaintext": false,
+      "yaml": true,
+      "plaintext": true,
       "markdown": true,
       "ruby": true
     },
-    "workbench.statusBar.visible": false
+    "gitlens.hovers.currentLine.over": "line"
 }
